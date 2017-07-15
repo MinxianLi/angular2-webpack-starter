@@ -14,6 +14,7 @@ console.log('`Detail` component loaded asynchronously');
   selector: 'detail',
   template: `
     <h1>Hello from Detail</h1>
+	<h2>Mason added this header in July 15, 2017</h2>
     <span>
       <a [routerLink]=" ['./child-detail'] ">
         Child Detail
