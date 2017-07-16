@@ -31,6 +31,7 @@ import { XLargeDirective } from './home/x-large';
 
 import '../styles/styles.scss';
 import '../styles/headings.css';
+import { BarComponent } from './bar/bar.component';
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -54,7 +55,8 @@ type StoreType = {
     AboutComponent,
     HomeComponent,
     NoContentComponent,
-    XLargeDirective
+    XLargeDirective,
+    BarComponent
   ],
   /**
    * Import Angular's modules.
